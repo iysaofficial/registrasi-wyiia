@@ -115,8 +115,8 @@
             </div>
 
             <div class="input-box">
-              <label for="NAMA_SEKOLAH" class="form-label"
-                >Nama Sekolah</label
+              <label for="NAMA_UNIVERSITAS" class="form-label"
+                >Nama Universitas</label
               >
               <p>Noted : Masukan nama sekolah dengan format sesuai urutan nama ketua dan anggota tim asal sekolah masing - masing, dengan format seperti berikut :</p>
               <h6>SMA CERIA</h6>
@@ -124,28 +124,28 @@
               <h6>SMA TADIKA MESRA</h6>
               <textarea
                 type="text"
-                id="NAMA_SEKOLAH"
-                name="NAMA_SEKOLAH"
+                id="NAMA_UNIVERSITAS"
+                name="NAMA_UNIVERSITAS"
                 class="form-control"
-                placeholder="Masukan Nama Sekolah Anda"
+                placeholder="Masukan Nama Universitas Anda"
                 required
               ></textarea>
             </div>
 
             <div class="input-box">
-              <label for="NISN_NIM" class="form-label"
-                >NISN Leader & Member Tim
+              <label for="NIM" class="form-label"
+                >NIM Leader & Member Tim
               </label>
-              <p>Noted : Masukan NISN / NIM dengan sesuai urutan nama ketua dan anggota tim, dengan format seperti berikut :</p>
+              <p>Noted : Masukan NIM dengan sesuai urutan nama ketua dan anggota tim, dengan format seperti berikut :</p>
               <h6>231700</h6>
               <h6>241700</h6>
               <h6>251700</h6>
               <textarea
                 type="text"
-                id="NISN_NIM"
-                name="NISN_NIM"
+                id="NIM"
+                name="NIM"
                 class="form-control"
-                placeholder="Masukan NISN Ketua & Anggota Tim"
+                placeholder="Masukan NIM Ketua & Anggota Tim"
                 required
               ></textarea>
             </div>
@@ -178,14 +178,15 @@
                 placeholder="Choose Grade"
                 required
               >
-                <option value="">--Pilih Jenjang Pendidikan Anda--</option>
-                <option value="Sekolah Dasar">Sekolah Dasar</option>
+              <option value="Universitas">Universitas</option>
+                <!-- <option value="Sekolah Dasar">Sekolah Dasar</option>
                 <option value="Sekolah Menengah Pertama">
                   Sekolah Menengah Pertama
                 </option>
                 <option value="Sekolah Menengah Atas">
                   Sekolah Menengah Atas
-                </option>
+                </option> -->
+                <!-- <option value="Universitas">Universitas</option> -->
               </select>
             </div>
 
@@ -502,7 +503,7 @@
 
     <script>
     const scriptURL =
-      'https://script.google.com/macros/s/AKfycbwynWspWTLOuSkNEz4PgeCxwmx-s46fXBqHG9hzGw7ZdNFt1vaC-DvF22XfPWntP42x/exec';
+      'https://script.google.com/macros/s/AKfycbzhVMwLy1SnIBy1XmKwy-fv75VTheHMJVOA6W74RBWhlLoBVMH_WPO2AK72l3fpPT3E/exec';
     const form = document.forms['#'];
     
     form.addEventListener('submit', (e) => {

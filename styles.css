@@ -71,13 +71,32 @@ a {
   margin-top: 10 0px !important;
 }
 
-.btn {
+.link-web .btn .btn--primary {
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10 0px !important;
+}
+
+.btn--accent {
   padding: 10px 100px;
   border-radius: 550000px;
   cursor: pointer;
   /* color: #ffffff; */
   transition: all 0.4s;
-  font-size: 20px;
+  font-size: 17px;
+  font-weight: bold;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.btn--primary {
+  padding: 10px 30px;
+  border-radius: 550000px;
+  cursor: pointer;
+  /* color: #ffffff; */
+  transition: all 0.4s;
+  font-size: 17px;
   font-weight: bold;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
@@ -90,8 +109,9 @@ a {
 
 .btn--primary:hover {
   color: #ffffff;
-  background: linear-gradient(to right, #00d9a5 70%, #fefefe 100%);
+  /* background: linear-gradient(to right, #00d9a5 70%, #fefefe 100%); */
   box-shadow: 0 4px 15px 0 rgba(245,245,245);
+  border: #000 2px solid;
 }
 
 .btn--accent {
@@ -101,8 +121,9 @@ a {
 
 .btn--accent:hover {
   color: #ffffff;
-  background: linear-gradient(to right, #00d9a5 70%, #fefefe 100%);
+  /* background: linear-gradient(to right, #00d9a5 70%, #fefefe 100%); */
   box-shadow: 0 4px 15px 0 rgba(245,245,245);
+  border: #000 2px solid;
 }
 
 @media screen and (max-width: 426px) {

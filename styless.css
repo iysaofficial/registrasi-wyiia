@@ -161,6 +161,8 @@ form .button input {
 form .button input:hover {
   /* transform: scale(0.99); */
   background: linear-gradient(-135deg, #fefefe  , #00d9a5);
+  color: #000;
+  border: #000 1px solid;
 }
 
 @media (max-width: 584px) {
