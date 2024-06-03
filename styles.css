@@ -162,14 +162,14 @@ a {
   }
   .wrapper h2 {
     font-size: 25px;
-    color: #ffffff;
+    color: #000;
     margin-top: 90px !important;
     font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
       "Lucida Sans", Arial, sans-serif;
-    border: 1px solid #ffffff;
+    border: 1px solid #000;
     width: 320px;
     font-weight: bold;
-    border-radius: 25px;
+    border-radius: 10px;
     padding: 5px;
     background: linear-gradient(to right, #00d9a5 70%, #fefefe 100%);
   }
