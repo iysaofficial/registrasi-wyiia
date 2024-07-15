@@ -165,6 +165,14 @@ form .button input:hover {
   border: #000 1px solid;
 }
 
+.barrier {
+  width: 100%;
+  text-align: right;
+  margin-top: -20px;
+  padding-right: 10px;
+  color: #737373;
+}
+
 @media (max-width: 584px) {
   .container {
     margin-top: 200px;
